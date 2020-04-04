@@ -1,0 +1,44 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.error_msg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.search_form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_bar{
+  width: 25%;
+  border: none;
+  padding: 10px;
+}
+
+.search_button{
+  background: grey;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.drinks{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
